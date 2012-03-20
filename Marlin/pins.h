@@ -920,16 +920,16 @@
 #define TEMP_BED_PIN        0  // Bed
 
 #define SDPOWER            -1
-#define SDSS                2
+#define SDSS                26
 #define LED_PIN            -1
 #define PS_ON_PIN          -1
 #define KILL_PIN           -1
 
 #ifndef SDSUPPORT
 // these pins are defined in the SD library if building with SD support
-  #define SCK_PIN          21
-  #define MISO_PIN         22
-  #define MOSI_PIN         23
+  #define SCK_PIN          9
+  #define MISO_PIN         11
+  #define MOSI_PIN         10
 #endif
 #endif
 
